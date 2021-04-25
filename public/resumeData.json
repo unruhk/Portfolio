@@ -1,0 +1,117 @@
+{
+  "main": {
+    "name": "Klaus Unruh",
+    "occupation": "Junior Web & Mobile Developer",
+    "description": "I bring ideas to life",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Klaus! I am a junior web and mobile developer. I developed my first project in java in 2015. I want to clone the best apps and websites out there. I learn from the best manufacturers. Perfect prerequisite for developing my own ideas.",
+    "contactmessage": "Get in touch with me!",
+    "email": "mail@kunruh.de",
+    "phone": "+49 1234567899",
+    "address": {
+      "street": "Strasse 123",
+      "city": "Sankt Augustin",
+      "state": "Germany",
+      "zip": "53757"
+    },
+    "website": "https://kunruh.de/",
+    "resumedownload": "https://kunruh.de/",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/unruhk",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "TH Köln - University of Applied Sciences - DE",
+        "degree": "Bachelor's Degree, Business Information Systems",
+        "graduated": "July 2016",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "Netflix Clone",
+        "title": "Web Application",
+        "years": "April 2021",
+        "description": "Build a Netflix Clone with React JS and Redux. Powered by Firebase and The Movie Database (TMDb).",
+        "accessData": "Access Data: E-Mail: test@kunruh.com PW: test123!"
+      },
+      {
+        "company": "Tesla Clone",
+        "title": "Mobile Application",
+        "years": "March 2021",
+        "description": "Build a Tesla Clone with React Native. Powered by Expo."
+      },
+      {
+        "company": "Signal Clone",
+        "title": "Mobile Application",
+        "years": "March 2021",
+        "description": "Build a Signal Clone with React Native. Powered by Firebase."
+      },
+      {
+        "company": "Portfolio",
+        "title": "Single-Page Application",
+        "years": "March 2021",
+        "description": "Build this Portfolio as a Single-Page Application with React JS."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "100%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "Web Development",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Portfolio (React JS)",
+        "category": "Single-Page Application",
+        "image": "portfolio.jpg",
+        "url": "https://kunruh.de/"
+      },
+      {
+        "title": "Netflix Clone (React JS)",
+        "category": "Web App",
+        "image": "netflix-clone.jpg",
+        "url": "https://netflix-clone-9018d.web.app/"
+      },
+      {
+        "title": "Tesla Clone (React Native)",
+        "category": "Mobile App",
+        "image": "tesla-clone.jpg",
+        "url": "https://expo.io/@klunruh/projects/demo-autovermietung"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Klaus is very creative and has lots of great ideas. His work inspires me.",
+        "user": "Anonymous"
+      }
+    ]
+  }
+}
