@@ -1,0 +1,39 @@
+{
+    "main": {
+        "title": "Datenschutzerklärung",
+        "date": "Stand: 28. April 2021",
+        "information": "Wir messen dem Datenschutz große Bedeutung bei. Die Erhebung und Verarbeitung Ihrer personenbezogenen Daten geschieht unter Beachtung der geltenden datenschutzrechtlichen Vorschriften, insbesondere der Datenschutzgrundverordnung (DSGVO).",
+        "representative": "Klaus Unruh",
+        "phone": "+49 172 9567980",
+        "email": "mail@kunruh.de",
+        "url": "kunruh.de",
+        "address": {
+            "street": "Am Scherenstück 9A",
+            "city": "Sankt Augustin",
+            "state": "Germany",
+            "zip": "53757"
+        },
+        "chapter1_1": "Verantwortlicher für die Erhebung, Verarbeitung und Nutzung Ihrer personenbezogenen Daten im Sinne von Art. 4 Nr. 7 DSGVO ist",
+        "chapter1_2": "Sofern Sie der Erhebung, Verarbeitung oder Nutzung Ihrer Daten durch uns nach Maßgabe dieser Datenschutzbestimmungen insgesamt oder für einzelne Maßnahmen widersprechen wollen, können Sie Ihren Widerspruch an den Verantwortlichen richten.",
+        "chapter1_3": "Sie können diese Datenschutzerklärung jederzeit speichern und ausdrucken.",
+        
+        "chapter2_1": "Wir verwenden personenbezogene Daten zum Zweck des Betriebs der Website.",
+        
+        "chapter3_1_1": "Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zweck des Betriebs der Website einsetzen.",
+        "chapter3_1_2": "Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und Besuchern dieser Website auf Grundlage unserer berechtigten Interessen an einer effizienten und sicheren Zurverfügungstellung unserer Website gem. Art. 6 Abs. 1 S. 1 f) DSGVO i.V.m. Art. 28 DSGVO.",
+        "chapter3_2_1": "Wir sammeln Informationen über Sie, wenn Sie diese Website nutzen. Wir erfassen automatisch Informationen über Ihr Nutzungsverhalten und Ihre Interaktion mit uns und registrieren Daten zu Ihrem Computer oder Mobilgerät. Wir erheben, speichern und nutzen Daten über jeden Zugriff auf unsere Website (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören:",
+        "chapter3_2_listItem_1": "Name und URL der abgerufenen Datei",
+        "chapter3_2_listItem_2": "Datum und Uhrzeit des Abrufs",
+        "chapter3_2_listItem_3": "übertragene Datenmenge",
+        "chapter3_2_listItem_4": "Meldung über erfolgreichen Abruf (HTTP response code)",
+        "chapter3_2_listItem_5": "Browsertyp und Browserversion",
+        "chapter3_2_listItem_6": "Betriebssystem",
+        "chapter3_2_listItem_7": "Referer URL (d.h. die zuvor besuchte Seite)",
+        "chapter3_2_listItem_8": "Websites, die vom System des Nutzers über unsere Website aufgerufen werden",
+        "chapter3_2_listItem_9": "Internet-Service-Provider des Nutzers",
+        "chapter3_2_listItem_10": "IP-Adresse und der anfragende Provider",
+        "chapter3_2_2": "Wir nutzen diese Protokolldaten ohne Zuordnung zu Ihrer Person oder sonstiger Profilerstellung für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung unserer Website, aber auch zur anonymen Erfassung der Anzahl der Besucher auf unserer Website (traffic) sowie zum Umfang und zur Art der Nutzung unserer Website und Dienste, ebenso zu Abrechnungszwecken, um die Anzahl der von Kooperationspartnern erhaltenen Clicks zu messen. Aufgrund dieser Informationen können wir personalisierte und standortbezogene Inhalte zur Verfügung stellen und den Datenverkehr analysieren, Fehler suchen und beheben und unsere Dienste verbessern.",
+        "chapter3_2_3": "Hierin liegt auch unser berechtigtes Interesse gemäß Art 6 Abs. 1 S. 1 f) DSGVO.",
+        "chapter3_2_4": "Wir behalten uns vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht. IP-Adressen speichern wir für einen begrenzten Zeitraum in den Logfiles, wenn dies für Sicherheitszwecke erforderlich oder für die Leistungserbringung oder die Abrechnung einer Leistung nötig ist, z. B. wenn Sie eines unserer Angebote nutzen. Nach Abbruch des Vorgangs der Bestellung oder nach Zahlungseingang löschen wir die IP-Adresse, wenn diese für Sicherheitszwecke nicht mehr erforderlich ist. IP-Adressen speichern wir auch dann, wenn wir den konkreten Verdacht einer Straftat im Zusammenhang mit der Nutzung unserer Website haben. Außerdem speichern wir als Teil Ihres Accounts das Datum Ihres letzten Besuchs (z.B. bei Registrierung, Login, Klicken von Links etc.)."
+    }
+}

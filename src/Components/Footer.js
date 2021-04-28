@@ -22,8 +22,18 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="Klaus Unruh" href="https://kunruh.de/">
+              <a title="Klaus Unruh" href="/#about">
                 Klaus Unruh
+              </a>
+            </li>
+            <li>
+              <a title="Impressum" href="/impressum">
+                Impressum
+              </a>
+            </li>
+            <li>
+              <a title="Datenschutzerklärung" href="/privacyPolicy">
+                Datenschutzerklärung
               </a>
             </li>
           </ul>
