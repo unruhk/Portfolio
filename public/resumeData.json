@@ -39,8 +39,7 @@
         "company": "Netflix Clone",
         "title": "Web Application",
         "years": "April 2021",
-        "description": "Build a Netflix Clone with React JS and Redux. Powered by Firebase and The Movie Database (TMDb).",
-        "accessData": "Access Data: E-Mail: test@kunruh.com PW: test123!"
+        "description": "Build a Netflix Clone with React JS and Redux. Powered by Firebase and The Movie Database (TMDb)."
       },
       {
         "company": "Tesla Clone",
@@ -90,19 +89,25 @@
         "title": "Portfolio (React JS)",
         "category": "Single-Page Application",
         "image": "portfolio.jpg",
-        "url": "https://kunruh.de/"
+        "url": "https://github.com/unruhk/Portfolio"
       },
       {
         "title": "Netflix Clone (React JS)",
         "category": "Web App",
         "image": "netflix-clone.jpg",
-        "url": "https://netflix-clone-9018d.web.app/"
+        "url": "https://github.com/unruhk/Netflix-Clone"
       },
       {
         "title": "Tesla Clone (React Native)",
         "category": "Mobile App",
-        "image": "tesla-clone.jpg",
-        "url": "https://expo.io/@klunruh/projects/demo-autovermietung"
+        "image": "tesla-clone-3.jpg",
+        "url": "https://github.com/unruhk/Tesla-Clone"
+      },
+      {
+        "title": "Signal Clone (React Native)",
+        "category": "Mobile App",
+        "image": "signal-clone.jpg",
+        "url": "https://github.com/unruhk/Signal-Clone"
       }
     ]
   },
