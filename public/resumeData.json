@@ -88,25 +88,25 @@
       {
         "title": "Portfolio (React JS)",
         "category": "Single-Page Application",
-        "image": "portfolio.jpg",
+        "image": "portfolio-mockup-grey.jpg",
         "url": "https://github.com/unruhk/Portfolio"
       },
       {
         "title": "Netflix Clone (React JS)",
         "category": "Web App",
-        "image": "netflix-clone.jpg",
+        "image": "netflix-clone-grey.jpg",
         "url": "https://github.com/unruhk/Netflix-Clone"
       },
       {
         "title": "Tesla Clone (React Native)",
         "category": "Mobile App",
-        "image": "tesla-clone-3.jpg",
+        "image": "tesla-clone-grey.jpg",
         "url": "https://github.com/unruhk/Tesla-Clone"
       },
       {
         "title": "Signal Clone (React Native)",
         "category": "Mobile App",
-        "image": "signal-clone.jpg",
+        "image": "signal-clone-grey.jpg",
         "url": "https://github.com/unruhk/Signal-Clone"
       }
     ]
