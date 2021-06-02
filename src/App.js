@@ -47,7 +47,15 @@ const App = () => {
   return (
     <div className="App">
 
-      <Router>
+      <Header data={resumeData.main} />
+      <About data={resumeData.main} />
+      <Resume data={resumeData.resume} />
+      <Portfolio data={resumeData.portfolio} />
+      <Testimonials data={resumeData.testimonials} />
+      <Contact data={resumeData.main} />
+      <Footer data={resumeData.main} />
+
+      {/* <Router>
         <Switch>
           <Route exact path="/">
             <Header data={resumeData.main} />
@@ -69,7 +77,7 @@ const App = () => {
             <FooterPrivacy />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
 
     </div>
   );

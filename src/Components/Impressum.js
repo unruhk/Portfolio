@@ -1,6 +1,9 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
-const Impressum = ({ data }) => {
+const Impressum = ({ open, data, onClose }) => {
+    if (!open) return null;
+
     if (data) {
         var title = data.title;
         var information = data.information;
@@ -21,69 +24,77 @@ const Impressum = ({ data }) => {
         var website_generator = data.website_generator;
     }
 
-    return (
-        <section id='impressum'>
-            <div className='body'>
+    return ReactDOM.createPortal(
+        <>
+            <div className='overlay' />
+            <section id='impressum'>
+                <div className='body'>
 
-                <h1>{title}</h1>
-                <p>
-                    <span>{information}</span>
-                    <br />
-                    <br />
-                    <span>
-                        <b>{representative}</b>
+                    <button onClick={onClose}>Close</button>
+
+                    <h1>{title}</h1>
+                    <p>
+                        <span>{information}</span>
                         <br />
-                        {street}
                         <br />
-                        {zip} {city}, {state}
+                        <span>
+                            <b>{representative}</b>
+                            <br />
+                            {street}
+                            <br />
+                            {zip} {city}, {state}
+                            <br />
+                            E-Mail:
+                            <a href="mailto:mail@kunruh.de"> {email}</a>
+                            <br />
+                            Mobil: {phone}
+                        </span>
+                    </p>
+                    <p>
+                        <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h4>
+                        <span>
+                            <b>{representative}</b>
+                            <br />
+                            {street}
+                            <br />
+                            {zip} {city}, {state}
+                        </span>
+                    </p>
+                    <p>
+                        <h4>Haftungsausschluss</h4>
+                        <h5>Haftung für Inhalte</h5>
+                        <span>{content}</span>
+                    </p>
+                    <p>
+                        <h5>Haftung für Links</h5>
+                        <span>{link}</span>
+                    </p>
+                    <p>
+                        <h5>Urheberrecht</h5>
+                        <span>{copyright}</span>
+                    </p>
+                    <p>
+                        <h5>Datenschutz</h5>
+                        <span>{privacy_1}</span>
                         <br />
-                    E-Mail:
-                    <a href="mailto:mail@kunruh.de"> {email}</a>
+                        <span>{privacy_2}</span>
                         <br />
-                    Mobil: {phone}
-                    </span>
-                </p>
-                <p>
-                    <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h4>
-                    <span>
-                        <b>{representative}</b>
-                        <br />
-                        {street}
-                        <br />
-                        {zip} {city}, {state}
-                    </span>
-                </p>
-                <p>
-                    <h4>Haftungsausschluss</h4>
-                    <h5>Haftung für Inhalte</h5>
-                    <span>{content}</span>
-                </p>
-                <p>
-                    <h5>Haftung für Links</h5>
-                    <span>{link}</span>
-                </p>
-                <p>
-                    <h5>Urheberrecht</h5>
-                    <span>{copyright}</span>
-                </p>
-                <p>
-                    <h5>Datenschutz</h5>
-                    <span>{privacy_1}</span>
-                    <br />
-                    <span>{privacy_2}</span>
-                    <br />
-                    <span>{privacy_3}</span>
-                </p>
-                <p>
-                    <span>
-                        {privacy_source}
-                        <a href="https://www.impressum-generator.de/">
-                            {website_generator}
-                        </a>
-                    </span>
-                </p>
-            </div>
-        </section>
+                        <span>{privacy_3}</span>
+                    </p>
+                    <p>
+                        <span>
+                            {privacy_source}
+                            <a href="https://www.impressum-generator.de/">
+                                {website_generator}
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </section>
+
+        </>,
+
+        document.getElementById('portal')
     )
 }
 

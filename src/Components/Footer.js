@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Impressum from "./Impressum";
+import Modal from "./Modal";
 
 const Footer = ({ data }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [impressumData, setImpressumData] = useState({});
+
   if (data) {
     var networks = data.social.map(function (network) {
       return (
@@ -12,6 +17,14 @@ const Footer = ({ data }) => {
       );
     });
   }
+
+  useEffect(() => {
+    fetch("/impressumData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setImpressumData(data);
+      });
+  }, []);
 
   return (
     <footer>
@@ -27,14 +40,49 @@ const Footer = ({ data }) => {
               </a>
             </li>
             <li>
-              <a title="Impressum" href="/impressum">
+              <button onClick={() => setIsOpen(true)}>
                 Impressum
-              </a>
+              </button>
+
+              <Impressum
+                open={isOpen}
+                data={impressumData.main}
+                onClose={() => setIsOpen(false)}
+              />
+
+              {/* <a
+                title="Impressum"
+                href="#contact"
+                onClick={() => setIsOpen(true)} >
+                  <i class="fa"></i>
+                  <Impressum
+                    open={isOpen}
+                    data={impressumData.main}
+                    onClose={() => setIsOpen(false)}
+                  />
+                  Impressum
+              </a> */}
+
+              {/* <a title="Impressum" href="/impressum">
+                Impressum
+              </a> */}
             </li>
             <li>
-              <a title="Datenschutzerklärung" href="/privacyPolicy">
+
+              <button onClick={() => setIsOpen(true)}>
                 Datenschutzerklärung
-              </a>
+              </button>
+
+              <Modal
+                open={isOpen}
+                data={impressumData.main}
+                onClose={() => setIsOpen(false)}
+              />
+
+
+              {/* <a title="Datenschutzerklärung" href="/privacyPolicy">
+                Datenschutzerklärung
+              </a> */}
             </li>
           </ul>
         </div>
