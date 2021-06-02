@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Klaus Unruh",
-    "occupation": "Junior Web & Mobile Developer",
+    "occupation": "Web & Mobile Developer",
     "description": "I bring ideas to life",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Klaus! I am a junior web and mobile developer. I developed my first project in java in 2015. I want to clone the best apps and websites out there. I learn from the best manufacturers. Perfect prerequisite for developing my own ideas.",
+    "bio": "Hi there! I am Klaus! I am a web and mobile developer. I developed my first project in java in 2015. I want to clone the best apps and websites out there. I learn from the best manufacturers. Perfect prerequisite for developing my own ideas.",
     "contactmessage": "Get in touch with me!",
     "email": "mail@kunruh.de",
     "phone": "+49 1234567899",
